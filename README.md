@@ -1,2 +1,2 @@
 # Ramsey_dot_com
-My personal webpage.
+<insert lame slogan here>

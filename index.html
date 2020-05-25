@@ -4,29 +4,37 @@ layout: default
 <style>
   h3 {text-align: center;}
   h2 {text-align: center;}
-  .left-side {text-align: left; display:inline-block;}
-  .center-page {text-align: center;display:inline-block; max-height:250px; max-width:200px;}
+  #container {width:100%}
+  #left-side {float:left;}
+  #center-page {margin:0 auto; max-height:250px; max-width:200px;}
+  #right-side {float:right;}
 </style>
 
 <h3>Ramsey A. Awwad</h3>
 
-<div class="left-side">
-  <table style="align:center;border:solid;">
-    <tr>
-      <td>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about-me.html">About Me</a></li>
-          <li><a href="./apps.html">Apps</a></li>
-        </ul>
-      </td>
-    </tr>
-  </table>
+<div id="container">
+  <div id="left-side">
+    <table style="align:center;border:solid;">
+      <tr>
+        <td>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about-me.html">About Me</a></li>
+            <li><a href="./apps.html">Apps</a></li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="center-page">
+    <img src="./webPhoto.jpg" style="max-height:100%; max-width:100%" text-align="center" alt="portrait">
+  </div>
+  <div class="right-side">
+    <p>no content</p>
+  </div>
 </div>
 
-<div class="center-page">
-  <img src="./webPhoto.jpg" style="max-height:100%; max-width:100%" text-align="center" alt="portrait">
-</div>
+
 
 <h2>This site is still under construction but will be up and running soon! ;)</h2>
 

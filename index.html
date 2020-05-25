@@ -4,7 +4,8 @@ layout: default
 <style>
   h3 {text-align: center;}
   h2 {text-align: center;}
-  #container {width:100%; display:block}
+  .container {width:100%; display:block}
+  .row {display:block}
   #left-side {float:left;display:block}
   #center-page {margin:auto; max-height:250px; max-width:200px;padding-right:15px;display:block}
   #right-side {float:right;display:block}
@@ -13,19 +14,21 @@ layout: default
 
 <h3>Ramsey A. Awwad</h3>
 
-<div id="container">
-  <div id="left-side">
-    <table style="align:center;border:solid;">
-      <tr>
-        <td>
-          <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about-me.html">About Me</a></li>
-            <li><a href="./apps.html">Apps</a></li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+<div class="container">
+  <div class="row">
+    <div id="left-side">
+      <table style="align:center;border:solid;">
+        <tr>
+          <td>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about-me.html">About Me</a></li>
+              <li><a href="./apps.html">Apps</a></li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
   </div>
   <div id="center-page">
     <img src="./webPhoto.jpg" style="max-height:100%; max-width:100%" text-align="center" alt="portrait">
@@ -33,8 +36,11 @@ layout: default
   <div id="right-side">
     <p>no content</p>
   </div>
+  <div class="row">
+    <div id="midpage">
+      <h2>This site is still under construction but will be up and running soon! ;)</h2>
+      <p> Visit my <a href="https://www.linkedin.com/in/ramsey-awwad/">LinkedIn</a> page to see my professional profile.</p>
+    </div>
+  </div>
 </div>
-<div id="midpage">
-    <h2>This site is still under construction but will be up and running soon! ;)</h2>
-    <p> Visit my <a href="https://www.linkedin.com/in/ramsey-awwad/">LinkedIn</a> page to see my professional profile.</p>
-</div>
+
